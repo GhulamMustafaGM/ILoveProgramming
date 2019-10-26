@@ -1,22 +1,37 @@
-// Print Table 
+// Print Prime Numbers 
 
 #include<iostream>
 using namespace std;
 
 int main()
 {
-	int number, a, table;
+	int start, end, a, b, count = 0;
+	
+	
+	cout << "Enter starting number: "; // user input
+	cin >> start;
 
-	cout << "Enter a number:";
-	cin >> number;
+	cout << "Enter ending number: "; // user input 
+	cin >> end;
 
-	cout<<"Table of "<< number <<" is \n\n";
-		for (a = 1; a <= 10; a++)
+	cout << "Prime number between " << start << " and " << end << " is:\n";
+	for (a = start; a <= end; a++)
+	{
+		count = 0;
+		for (b = 2; b < a; b++)
 		{
-			table = number * a;
-
-			cout << number << " * " << a << " = " << table << "\n";
+			if (a % b == 0)
+			{
+				count++;
+				break;
+			}
 		}
+		if (count == 0)
+		{
+			cout << a << " ";
+		}
+	}
+    cout << endl;
 	return 0;
 }
 
