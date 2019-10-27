@@ -6,7 +6,7 @@ int main()
 {
 	float fahrenheit, celsius; // declared variables
 
-	cout << "\nEnter temperature in Fahrenheit:";
+	cout << "\nEnter temperature in Celsius:";
 	cin >> fahrenheit;
 
 	celsius = (fahrenheit - 32) / 1.8;
