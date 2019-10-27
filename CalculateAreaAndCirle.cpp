@@ -1,4 +1,4 @@
-// CalcualteArea and CicumferenceCircle
+// CalcualteArea and CircumferenceCircle
 
 #include<iostream>
 using namespace std;
