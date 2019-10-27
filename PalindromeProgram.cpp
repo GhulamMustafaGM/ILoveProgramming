@@ -1,4 +1,5 @@
 // Palindrome or it is not
+
 #include<iostream>
 using namespace std;
 int main()
