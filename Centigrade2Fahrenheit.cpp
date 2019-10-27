@@ -1,4 +1,4 @@
-// Fahrenheit to centigrade conversion 
+// Centigrade to Fahrenheit counting 
 
 #include<iostream>
 using namespace std;
@@ -6,11 +6,11 @@ int main()
 {
 	float fahrenheit, celsius; // declared variables
 
-	cout << "\nEnter temperature in Celsius:";
+	cout << "\nEnter temperature in Celsius: ";
 	cin >> fahrenheit;
 
-	celsius = (fahrenheit - 32) / 1.8;
-	cout << "Temperature in Celsius = " << celsius;
+	fahrenheit = ( 1.8 * celsius) + 32;
+	cout << "Temperature in Fahrenheit = " << fahrenheit;
 	cout << endl;
 
 	return 0;
