@@ -1,21 +1,26 @@
-// StarPattern19 - Similing face 
+// StarPattern20 - One DimensionalArray 
 
 #include<iostream>
 using namespace std;
 
 int main()
 {
-	int smile = 1, a, limit;
-	char ch = smile;
 	
-	cout << "Enter number of smiley face you want to print ? ";
-	cin >> limit;
-
-	for (a = 0; a < limit; a++)
+	int OneDimensionalArray[50], number;
+	cout << "How many element you want to store in the array ? ";
+	cin >> number;
+	
+	cout << "Enter " << number << " element to store in the array : ";
+	
+	for (int a = 0; a < number; a++)
 	{
-		cout << ch << " ";
+		cin >> OneDimensionalArray[a];
+	}
+	cout << "The Elements in the Array is :\n ";
+	for (int b = 0; b < number; b++)
+	{
+		cout << OneDimensionalArray[b] << " ";
 	}
     cout << endl;
-    
 	return 0;
 }
