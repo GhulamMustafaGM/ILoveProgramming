@@ -1,4 +1,4 @@
-// Print: Concatenate String
+// Print: Reverse String
 
 #include<iostream>
 #include<cstring>
