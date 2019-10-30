@@ -1,4 +1,4 @@
-// Print: DeleteString
+// Print: Delete Vowels String
 
 #include<iostream>
 #include<cstring>
@@ -32,6 +32,6 @@ int main()
 	}
 	cout<<"After deleting the vowels, the string will be : "<<strs;
     cout << endl;
-    
+
     return 0;
 }
