@@ -1,4 +1,4 @@
-// Substract Matrices numbers
+// TransposeMatrices Matrices numbers
 
 #include<iostream>
 using namespace std;
