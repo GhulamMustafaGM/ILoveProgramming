@@ -27,7 +27,7 @@ int main()
 	{
 		for(j=0; j<3; j++)
 		{
-			cout<<arrt[i][j];
+			cout<<arrt[i][j] << " ";
 		}
 		cout<<"\n";
 	}
