@@ -1,5 +1,6 @@
 // Print: Copy String
 
+
 #include<iostream>
 #include<cstring>
 #include<cstdio>
@@ -14,11 +15,11 @@ int main()
 	cin >>strs1;
 
 	cout<<"copying string 1 into string 2 ... \n";
-	
-	(strcpy(strs2, strs1);
+
+	strcpy(strs2, strs1);
 
 	cout<<"String 2 after copying "<<strs2;
     cout << endl;
-	
+
     return 0;
 }
