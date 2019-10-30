@@ -1,4 +1,4 @@
-// Add two Matrices numbers
+// Substract two Matrices numbers
 
 #include<iostream>
 using namespace std;
