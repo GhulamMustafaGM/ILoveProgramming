@@ -1,7 +1,6 @@
 // Show Current date in C++
 
 #include<iostream>
-#include<fstream>
 #include<ctime>
 
 using namespace std;
