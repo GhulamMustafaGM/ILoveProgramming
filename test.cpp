@@ -1,17 +1,11 @@
-// Show Current date in C++
+// Show IP Address in C++
 
-#include<iostream>
-#include<fstream>
-#include<ctime>
-
+#include<cstdlib>
 using namespace std;
 
 int main()
 {
-	time_t current = time(0);
-	struct tm *ltm = localtime(&current);
-	cout<<"Current system date is : "<<ltm->tm_mday<<"/"
-	<<1 + ltm->tm_mon<<"/"<<1900 + ltm->tm_year;
 
-    cout << endl;
+    system("C:\\Windows\\System32\\ipconfig");
+
 }

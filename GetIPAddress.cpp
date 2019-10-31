@@ -1,6 +1,6 @@
 // Show IP Address in C++
 
-#include<stdlib.h>
+#include<cstdlib>
 
 using namespace std;
 
