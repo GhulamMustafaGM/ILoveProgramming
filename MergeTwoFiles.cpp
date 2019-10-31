@@ -24,7 +24,7 @@ int main()
 
 	cout<<"Enter name of file (with extension like newfile.txt) which will store the contents of the two files (fName1 and fName1) : ";
 	gets(fName3);
-
+	
     ifiles1.open(fName1);
 	ifiles2.open(fName2);
 
