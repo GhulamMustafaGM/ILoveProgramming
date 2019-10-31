@@ -1,7 +1,5 @@
 // Generate Random numbers
 
-// Generate Random numbers
-
 #include<iostream>
 #include<cstdlib>
 
