@@ -11,7 +11,7 @@ int main()
 {
 	char fName[25], ch, choice;
 	fstream fps, fpt;
-
+	
     cout<<"Enter file name (with extension like example.txt) to encrypt : ";
 	gets(fName);
 	fps.open(fName);

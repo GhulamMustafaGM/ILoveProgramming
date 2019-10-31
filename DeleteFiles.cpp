@@ -8,7 +8,7 @@ using namespace std;
 int main()
 {
     int status;
-	char fName[25];
+	char fNme[25];
 	cout<<"Enter name of file, you want to delete : ";
 	gets(fName);
 
