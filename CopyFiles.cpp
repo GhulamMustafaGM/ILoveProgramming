@@ -1,4 +1,4 @@
-// Read and Display File
+// Copy Files
 
 #include<iostream>
 #include<cstring>
