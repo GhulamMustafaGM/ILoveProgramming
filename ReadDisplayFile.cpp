@@ -14,7 +14,7 @@ int main()
     ifstream ifile;
 
 	char str[120], fName[25];
-
+	
     cout<<"Enter file name to read and display its content (like file.txt) : ";
 	cin>>fName;
 
@@ -23,7 +23,7 @@ int main()
 	if(!ifile)
 	{
 		cout<<"Error in opening file...";
-			exit(0);
+		exit(0);
 	}
 	while(ifile.eof()==0)
 	{
