@@ -1,4 +1,4 @@
-// Find student score 
+// Array Program
 
 #include<iostream> 
 
@@ -9,6 +9,6 @@ int main()
     char ArrayOne[] = "Welcome to C++ ";
 
     cout << "Value of Array is: " << ArrayOne << endl;
-    
+
     return 0;
 }
