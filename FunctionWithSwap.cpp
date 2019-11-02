@@ -1,4 +1,4 @@
-// Finction with swap
+// Function with swap
 
 #include<iostream>
 using namespace std;
