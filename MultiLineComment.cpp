@@ -1,4 +1,4 @@
-// SingleLine Comment
+// MultiLine Comment
 
 #include<iostream>
 
