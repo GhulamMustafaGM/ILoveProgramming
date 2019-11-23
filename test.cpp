@@ -1,20 +1,23 @@
-// deafult Parameter Value
 #include <iostream>
 #include <string>
-using namespace std;
+class Solution {
+  public:
+    int Solution(int a) {
 
-void MeraFunction(string FirstName, int age)
-    {
-        cout << FirstName << " Son " << age << " years old. " << endl;
+        return 3 + a;
     }
-    int main()
-    {
-        MeraFunction("Peter", 28);
-        MeraFunction("John", 89);
-        MeraFunction("Kicker", 90);
-        MeraFunction("Ricky", 33);
-        MeraFunction("Rock", 92);
+
+
+    int returnMagicNumber(int b) {
+
+      return 4-b;
+    }
+};
+
+int main()
+{
+    cout << "Magic number: " << Solution(3);
+    cout << "\nReturned number: " << returnMagicNumber(2);
 
     return 0;
-
-    }
+}
