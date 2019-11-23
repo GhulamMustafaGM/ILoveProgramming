@@ -9,19 +9,19 @@ int main()
     switch (day)
     {
         case 1: cout << "Monday";
-        break;
+            break;
         case 2: cout << "Tuesday";
-        break;
+            break;
         case 3: cout << "Wednessday";
-        break;
+            break;
         case 4: cout << "Thursday!";
-        break;
+            break;
         case 5: cout << "Friday!";
-        break;
+            break;
         case 6: cout << "Saturday!";
-        break;
+            break;
         case 7: cout << "Sunday";
-        break;
+            break;
     }
 
     return 0;
