@@ -6,10 +6,10 @@ using namespace std;
 int main()
 {
     string cars[6];
-
+            
             string food = "Pizza";
-            string &meal = food;
-
+            string &meal = food;            
+            
             cout << food << endl;
             cout << meal << endl;
 
