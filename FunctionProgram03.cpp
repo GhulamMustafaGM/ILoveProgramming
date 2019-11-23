@@ -11,8 +11,8 @@ void MeraFunction(string FirstName)
         MeraFunction("Adam");
         MeraFunction("Peter");
         MeraFunction("John");
-        MeraFunction("Andersson");
+        MeraFunction("Anders");
 
     return 0;
-
+    
     }
