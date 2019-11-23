@@ -10,6 +10,6 @@ int main()
     cout << max(4, 10) << endl;
     cout << min(4, 20) << endl;
 
-//    system("pause");
+    system("pause");
     return 0;
 }
