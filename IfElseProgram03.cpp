@@ -6,7 +6,7 @@ int main()
 {
     int time = 24;
 
-    if (time < 00 ) {
+    if (time < 20 ) {
 
         cout << "Good morning!";
     }
