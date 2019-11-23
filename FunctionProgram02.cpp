@@ -1,11 +1,7 @@
 #include <iostream>
-
 using namespace std;
 
-    void MeraFunction()
-    {
-        cout << "Hi, I love C++ Programing! \n";
-    }
+void MeraFunction();
 
     int main()
     {
@@ -13,7 +9,11 @@ using namespace std;
         MeraFunction();
         MeraFunction();
         MeraFunction();
-        MeraFunction();
-            
+
     return 0;
-}
+    }
+    void MeraFunction()
+    {
+        cout << "Hi, I love C++ Programing! \n";
+    }
+
