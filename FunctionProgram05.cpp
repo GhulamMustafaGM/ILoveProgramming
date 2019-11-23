@@ -1,11 +1,11 @@
-// deafult Parameter Value
+// Multiple Parameters Value
 #include <iostream>
 #include <string>
 using namespace std;
 
 void MeraFunction(string FirstName, int age)
     {
-        cout << FirstName << " Son " << age << " years old. " << endl;
+        cout << FirstName << " Son" << age << " year old. " << endl;
     }
     int main()
     {
@@ -16,5 +16,5 @@ void MeraFunction(string FirstName, int age)
         MeraFunction("Rock", 92);
 
     return 0;
-
+    
     }
