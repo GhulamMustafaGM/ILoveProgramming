@@ -8,7 +8,7 @@ using namespace std;
         string food = "Pizza";
         string* ptr = &food;
 
-        cout << food << endl;
+        cout << food << endl; 
         cout << &food << endl;  // Reference
         cout << *ptr << endl;   // Dereference
 
