@@ -10,6 +10,6 @@ using namespace std;
     int main()
     {
         MeraFunction();
-
+            
     return 0;
 }
