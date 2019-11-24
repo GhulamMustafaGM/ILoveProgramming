@@ -13,10 +13,9 @@ using namespace std;
 
 int main()
 {
-    MeriClass meraObj;
-
+    MeriClass meraObj;  
+        
         meraObj.meraMethod();
-        cout << endl;
-
+        
     return 0;
 }
