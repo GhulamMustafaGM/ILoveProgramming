@@ -21,8 +21,8 @@ class Developer: public Job {
 
 int main() {
     Developer myObj;
-    myObj.setJobSalary(50000);
-    myObj.bonus = 15000;
+    myObj.setJobSalary(35000);
+    myObj.bonus = 10000;
     cout << "Salary: " << myObj.getJobSalary() << "\n";
     cout << "Bonus Salary: " << myObj.bonus << "\n";
     return 0;
