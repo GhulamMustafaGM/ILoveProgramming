@@ -13,7 +13,7 @@ int main()
 
     MeraObj.number = 20;
 
-    cout << MeraObj.number << endl;
-
+    cout << "Mera Number: " << MeraObj.number << endl;    
+    
     return 0;
 }
