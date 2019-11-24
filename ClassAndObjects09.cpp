@@ -8,10 +8,12 @@ class MeriClass {
         int number2;
 };
 
-int main(){
+int main()
+{
     MeriClass MeraObj;
-    MeraObj.number1 = 20;
-    MeraObj.number2 = 30;
 
+    MeraObj.number1 = 20;   // allowed
+    MeraObj.number2 = 30;   // Not allowed (Private)
+    
     return 0;
 }
