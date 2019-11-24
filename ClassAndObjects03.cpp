@@ -5,7 +5,7 @@ using namespace std;
 
     class MeriClass {
     public:
-        void meraMethod();
+        void meraMethod(); 
     };
 
     void MeriClass::meraMethod() {
@@ -15,9 +15,9 @@ using namespace std;
 
 int main()
 {
-    MeriClass meraObj;
-
+    MeriClass meraObj;  
+        
         meraObj.meraMethod();
-
+        
     return 0;
 }
