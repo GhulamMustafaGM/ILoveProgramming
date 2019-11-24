@@ -6,7 +6,7 @@ class MeriClass
 
 public:
     void MeraFunc(){
-    cout << "This is multilevel class inheritance";
+    cout << "This is multilevel class inheritance \n";
     }
 };
 
