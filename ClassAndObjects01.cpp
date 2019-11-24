@@ -13,7 +13,7 @@ using namespace std;
 
 int main()
 {
-    MeriCar CarObj1;
+    MeriCar CarObj1;  
 
     CarObj1.CarBrand = "Volvo";
     CarObj1.CarModel = "G5";
@@ -26,6 +26,6 @@ int main()
 
     cout << CarObj1.CarBrand << " " << CarObj1.CarModel << " " << CarObj1.CarYear << endl;
     cout << CarObj2.CarBrand << " " << CarObj2.CarModel << " " << CarObj2.CarYear << endl;
-
+    
     return 0;
 }
