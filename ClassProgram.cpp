@@ -23,6 +23,6 @@ int main()
 
     cout << MeraObj.MeraNum << endl;
     cout << MeraObj.MeraString << endl;
-
+    
     return 0;
 }
