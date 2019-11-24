@@ -8,9 +8,9 @@ class MeriCar {
         string CarModel;
         int CarYear;
 
-        MeriCar(string a, string b, int c);
+        MeriCar(string a, string b, int c); // constructor defined 
 };
-        MeriCar::MeriCar(string a, string b, int c)
+        MeriCar::MeriCar(string a, string b, int c) // constructor declaration outside the class 
         {
 
             CarBrand = a;
