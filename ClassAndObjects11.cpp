@@ -5,7 +5,7 @@ using namespace std;
 class MeriVehicle {
     private:
         public:
-        string brand = " Hino";
+        string brand = "Hino";
         void Model() {
             cout << "GTS";
             cout << endl;
