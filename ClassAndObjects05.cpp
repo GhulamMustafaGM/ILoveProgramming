@@ -4,15 +4,15 @@ using namespace std;
 
 class MeriClass {
     public:
-        MeriClass() {
-
+        MeriClass() {   // Constructor defined
+    
         cout << "Constructor Program";
     }
 };
 
 int main() {
-
+    
     MeriClass meraObj;
-
+    
     return 0;
 }
