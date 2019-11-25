@@ -1,5 +1,5 @@
 #include <iostream>
-#include <string>
+#include <string> 
 using namespace std;
 
 class House {
@@ -21,16 +21,16 @@ class House {
         public:
         void BuildingType() {
             cout << "The building is consist of fifty rooms \n";
-        }
+        } 
     };
 int main()
 {
-
+    
     House myHome;
 
     Villa myVilla;
     Building myBuilding;
-
+    
     myHome.HouseType();
     myVilla.VillaType();
     myBuilding.BuildingType();
